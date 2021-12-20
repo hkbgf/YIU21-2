@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfApp6.Dec"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Dec">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="95" Margin="187,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontFamily="HYPMokGak" FontSize="60" TextAlignment="Center"><Run Text="궁수"/><Run Text="자리"/><Run Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="224" Margin="341,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" Text="헤르클래스가 반인반마인 켄타우로스와 싸우다가 , 그가 쏜 히드라의 독이 묻은 화살이 잘못하여 케이론의 발에 맞았다. 케이론은 고통스러웠으나 불사신이었기 때문에 죽을 수 가 없어 프로메테우스에게 불사의 몸을 양보하고 죽고 말았다. 이에 제우스가 케이론을 불쌍히 여겨 하늘에 올려 별자리 삼았는데 이것이 궁수자리다." Foreground="#FFDADADA"/>
+        <Image Margin="66,142,497,72" Source="Dec.gif" Stretch="Fill"/>
+        <Grid.Background>
+            <ImageBrush ImageSource ="bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>

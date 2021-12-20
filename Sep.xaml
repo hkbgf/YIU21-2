@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfApp6.Sep"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Sep">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="95" Margin="187,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontFamily="HYPMokGak" FontSize="60" TextAlignment="Center"><Run Text="처녀"/><Run Text="자리"/><Run Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="224" Margin="341,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" Text="페르세포네는 지하세계의 왕인 하데스의 마음을 사로잡을 정도로 아름다운 여인이었다. 페르세포네의 아름다움에 반한 하데스는 그녀를 납치하여 자신의 아내로 삼았다. 페르세포네는 지하세계에서 부족할 것 없는 생활을 하었지만 가끔씩 땅 의의 풍경들을 생각할 때면 깊은 슬픔에 잠기곤 하였다. 한편 페르세포네가 지하세계로 납치 된 후 딸을 잃은 데메테르는 비탄에 빠졌고 토지의 여신이 슬퍼하자 대지는 황폐해젔고 사람과 동물들이 살 수 없는 지경에 이르게 되었다. 신들의 왕인 제우스는 이를 방관할 수 없어 지하세계의 왕이자 자신의 형일 하데스를 설득하였다. 결국 제우스의 도움으로 페르세포네는 일년의 반 동안만 지하세계에 있고 나머지 반은 지상에서 어머니와 함께 지낼 수 있게 되었다. 딸을 만나게 되어 데메테르의 슬픔이 가시게 되면 땅은 다시 활기를 찾게 된다. 봄이 되면 동쪽 하늘로 떠오르는 처녀자리는 지하세계에서 지상으로 올라오는 페르세포네의 모습 인 것이다." Foreground="#FFDADADA"/>
+        <Image Margin="66,142,497,72" Source="Sep.gif" Stretch="Fill"/>
+        <Grid.Background>
+            <ImageBrush ImageSource ="bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>

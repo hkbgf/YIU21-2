@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfApp6.Aug"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Aug">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="95" Margin="187,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontFamily="HYPMokGak" FontSize="60" TextAlignment="Center"><Run Text="사자"/><Run Text="자리"/><Run Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="224" Margin="341,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" Text="헤라클레스는 신이 되기 위한 12업을 수행 해야 했다. 그 중 하나가 네메아 골짜기에 사는 식인 사자를 무찌르는 것이었는데, 그 사자의 가죽은 너무나 단단하여 창이나 칼로는 뚫을 수 없었다. 한 달간의 기나긴 혈투 끝에 헤라클레스는 지친 사자의 목을 졸라 숨통을 끊는데 성공한다. 승리한 헤라클레스는 사자가죽을 걸치고 다녔으며, 헤라클레스의 아버지인 제우스는 아들이 승리를 치하하고 그의 영웅적 면모가 영원히 기억되길 바라는 마음에 네메아의 사자를 하늘의 별자리로 만든다." Foreground="#FFDADADA"/>
+        <Image Margin="66,142,497,72" Source="Aug.gif" Stretch="Fill"/>
+        <Grid.Background>
+            <ImageBrush ImageSource ="bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>

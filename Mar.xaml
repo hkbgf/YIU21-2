@@ -1,0 +1,20 @@
+﻿<Page x:Class="WpfApp6.Mar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Mar">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="95" Margin="187,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontFamily="HYPMokGak" FontSize="60" TextAlignment="Center"><Run Text="물고기"/><Run Text="자리"/><Run Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="224" Margin="341,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" Text="메소포타미아, 즉 '두 강 사이의 땅'을 의미한다.  아프로디테의 아들 에로스가 괴물 티폰에게 쫓기던 도중 변신한 모습으로 여겨지고 있다. 이 때 함께 나일강에 뛰어들며 변신한 어머니 아프로디테와 서로를 놓치지 않으려고 끈으로 이은 모습이다. 이것을 아프로디테가 하늘에 기념하여 물고기자리로 바꿨다고 한다." Foreground="#FFDADADA"/>
+        <Image Margin="66,142,497,72" Source="Mar.gif" Stretch="Fill"/>
+        <Grid.Background>
+            <ImageBrush ImageSource ="bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>

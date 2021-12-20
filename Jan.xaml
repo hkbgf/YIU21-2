@@ -1,0 +1,21 @@
+﻿<Page x:Class="WpfApp6.Jan"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Jan">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="95" Margin="187,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" FontFamily="HYPMokGak" FontSize="60" TextAlignment="Center"><Run Text="염소자리"/><Run Text=" "/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="207" Margin="66,159,0,0" VerticalAlignment="Top" Width="211"/>
+        <TextBlock HorizontalAlignment="Left" Height="224" Margin="341,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" Foreground="#FFDADADA"><Run Text="이 별자리의 주인공은 가축의 신인 판(Pan)이다."/><LineBreak/><Run/><LineBreak/><Run Text="어느 날 판이 나일 강변에서 열린 신의 잔치에서 흥겹게 놀고 있을 때였다. 막 연회가 끝나고 판이 풀피리를 불려고 하는 순간 갑자기 거인 족 티폰(Typhon)이 나타나 그들을 공격하기 시작했다. 놀란 신들은 위험을 모면하기 위하여 제각기 짐승으로 변해 도망가기 시작했고 판도 주문을 외우며 변신을 시도했다. 하지만 너무 서두르는 바람에 주문이 섞여버렸다. 그래서 그는 상반신은 염소로 하반신은 물고기의 모습으로 변하고 말았다. 판이 주문을 바꾸려는 순간 제우스의 비명소리가 들려왔다. 판은 주문을 바꿀 시간도 없이 급히 풀피리를 불어 살을 에는 듯한 처절한 소리로 티폰을 달아나게 만들었다. 판의 도움으로 살아난 제우스는 그에 대한 보답으로 하늘의 별들 속에 반양반어인 바다 염소를 만들어 그의 도움을 영원히 기억하게 하였다."/></TextBlock>
+        <Image Margin="66,142,497,72" Source="Jan.gif" Stretch="Fill"/>
+        <Grid.Background>
+            <ImageBrush ImageSource ="bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>
